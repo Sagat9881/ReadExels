@@ -8,11 +8,6 @@ import java.util.Map;
 
 public class Reader {
 
-    public static void main(String[] args) {
-        Reader reader = new Reader();
-
-    }
-
     public static Map<String, String> read(Workbook wb) {
         Map<String, String> container = new HashMap<>();
         try  {
